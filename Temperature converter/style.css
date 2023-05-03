@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch&family=Clicker+Script&family=Courgette&family=Dancing+Script:wght@600&display=swap');
+html, body {
+  width: 100%;
+  height:100%;
+  margin: 0%;
+  padding: 0;
+  overflow-x: hidden;
+  font-size: 20px;
+  background-color: rgb(211, 217, 223);
+}
+h1 {
+  font-family: 'Chakra Petch', sans-serif;
+  background: linear-gradient(to right,#275f75,#2cb67d,#2e6f88);
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+}
+
+
+.card{
+  padding-top: 9px;
+  padding-bottom: 4px;
+  margin: 0 auto;
+  box-shadow: inset 2px 2px 2px 2px rgba(214, 118, 179, 0.895),
+              inset -2px -2px 2px 2px rgba(214, 118, 179, 0.895);
+              background-color: rgba(136, 128, 128, 0.46);
+  transition: 0.3s;
+  width: 40%;
+  text-align: center; 
+  display: block;
+  margin: 0 auto;
+}
+label[for="temp-type"]{
+    width: 70px;
+}
+label[for="celsius-output"], 
+label[for="fahrenheit-output"], 
+label[for="kelvin-output"] {
+  display: inline-block;
+  width: 80px; 
+  text-align: right;
+  margin-right: 10px;
+  vertical-align: top;
+}
+output {
+  display: inline-block;
+  border: 2px solid black;
+  height: 15px; 
+  width: 120px; 
+  padding: 5px;
+  margin-bottom: 5px;
+  border-radius: 2px;
+  vertical-align: top;
+}
+input[type="button"] {
+  background-color: rgb(30, 161, 67);
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 16px;
+  cursor: pointer;
+}
